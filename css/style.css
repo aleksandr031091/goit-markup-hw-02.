@@ -34,7 +34,9 @@
 .auth-nav .link:focus {
     color:  #2196F3;
 }
-
+.site-nav .link.current {
+    color: #2196F3;
+}
 /*заголовок*/
 .hero-title {
     color: #FFFFFF;
