@@ -39,12 +39,9 @@
 .hero-title {
     color: #FFFFFF;
 }
-.hero-button {
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
 
-/*маин*/
+
+/*секции*/
 .section-title {
     color: #212121;
 }
@@ -61,4 +58,22 @@
 }
 .contact-adress {
     color: rgba(255, 255, 255, 0.6);
+}
+
+/*кнопка*/
+.button {
+    
+}
+.button.primary {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.button.secondary {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
