@@ -12,6 +12,9 @@
 .head {
     background-color: #ffffff;
 }
+.logo, .capital {
+    color:  #2196F3;
+}
 .logo {
     font-family: Raleway, Oleo Script, sans-serif;
     font-weight: bold;
