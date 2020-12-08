@@ -9,6 +9,9 @@
 }
 
 /*шапка */
+.head {
+    background-color: #ffffff;
+}
 .logo {
     font-family: Raleway, Oleo Script, sans-serif;
     font-weight: bold;
@@ -47,6 +50,7 @@
 .site-nav .link.current {
     color: #2196F3;
 }
+
 /*заголовок*/
 .hero-title {
     font-weight: 900;
@@ -58,7 +62,9 @@
 }
 
 /*секции*/
-
+.section-tim {
+    background-color: #F5F4FA;
+}
 .section-title {
     font-weight: bold;
     font-size: 36px;
@@ -66,7 +72,6 @@
     text-align: center;
     color: #212121;
 }
-
 .section-title-advantages{
     font-family: Roboto;
     font-weight: bold;
@@ -78,14 +83,13 @@
 font-size: 14px;
 line-height: 1.71;
 }
-
 .section-title-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
 }
-.profession {
+.section-profession {
     font-size: 16px;
     line-height: 1.18px;
     color: #757575;
@@ -102,16 +106,24 @@ line-height: 1.71;
     line-height: 1.87;
     color: #757575;
 }
-
 .section-link {
     text-decoration: none;
 }
 
 /*подвал*/
-.office-adress {
+.footer-head {
+    background-color: #2F303A;
+}
+.footer-adress {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.contact-adress {
+.footer-adress {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
