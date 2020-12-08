@@ -12,9 +12,6 @@
 .head {
     background-color: #ffffff;
 }
-.logo, .capital {
-    color:  #2196F3;
-}
 .logo {
     font-family: Raleway, Oleo Script, sans-serif;
     font-weight: bold;
@@ -23,6 +20,21 @@
     letter-spacing: 0.03em;
     color: #212121;
     text-decoration: none;
+}
+.capital-head {
+    color:  #2196F3;
+}
+.logo-footer {
+    font-family: Raleway, Oleo Script, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:  #2196F3;
+    text-decoration: none;
+}
+.capital-footer {
+    color: #ffffff;
 }
 .logo:hover, 
 .logo:focus {
@@ -117,13 +129,13 @@ line-height: 1.71;
 .footer-head {
     background-color: #2F303A;
 }
-.footer-adress {
+.ooter-head, .mail{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.footer-adress {
+.footer-head, .tel{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
