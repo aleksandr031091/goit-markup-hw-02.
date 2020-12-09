@@ -30,11 +30,11 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color:  #2196F3;
+    color: #FFFFFF;
     text-decoration: none;
 }
 .capital-footer {
-    color: #ffffff;
+    color: #2196F3;
 }
 .logo:hover, 
 .logo:focus {
@@ -128,18 +128,30 @@ line-height: 1.71;
 /*подвал*/
 .footer-head {
     background-color: #2F303A;
+
 }
-.ooter-head, .mail{
+.footer-address {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.footer-head, .tel{
+.footer-head-mail{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-head-tel{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 /*кнопка*/
